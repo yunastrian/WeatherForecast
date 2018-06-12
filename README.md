@@ -19,10 +19,10 @@ src
 Packages made based on its function to make it easier for programmers to revise. **Interface Package** is used to display search field and result data. **Process Package** is used to request weather data from [Open Weather Map](https://openweathermap.org/) based on user input.
 
 ## Feature Checklist
-- [] Class Home
-- [] Class Result
-- [] Class Weather
-- [] Class Main
+- [ ] Class Home
+- [ ] Class Result
+- [ ] Class Weather
+- [ ] Class Main
 
 ## How to Install
 
