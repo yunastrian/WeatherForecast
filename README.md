@@ -3,7 +3,7 @@
 
 ## Open Weather Map API
 **Application Programming Interface (API)** is a set of subroutine definitions, protocols, and tools for building application software. In general terms, API allows programmers to use standard functions to interact with other operating systems. <br>
-**Open Weather Map API** is one of the APIs that can be used for predict the conditions of weather. It was created by [Open Weather Map](https://openweathermap.org/). This API provides features that can be viewed [here](https://openweathermap.org/api).
+**Open Weather Map API** is one of the APIs that can be used for predict the conditions of weather. We can use its feature to make simple weather forecast application easily. It was created by [Open Weather Map](https://openweathermap.org/). This API provides features to look current weather, predict 5 days forecast, etc. More information can be viewed [here](https://openweathermap.org/api).
 
 ## Package Structure 
 ```
