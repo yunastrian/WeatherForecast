@@ -16,7 +16,7 @@ src
 └── Main
     └── Main.java
 ```
-Packages made based on its function to make it easier for programmers to revise. **Interface Package** is used to display search field and result data. **Process Package** is used to request weather data from [Open Weather Map](https://openweathermap.org/) based on user input.
+Packages made based on its function to make it easier for programmers to revise. **Process Package** is used to request weather data from [Open Weather Map](https://openweathermap.org/) based on user input. **Main Package** is used to create GUI.
 
 ## Feature Checklist
 - [X] Class Weather
