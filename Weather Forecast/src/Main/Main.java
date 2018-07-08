@@ -234,8 +234,8 @@ public class Main extends javax.swing.JFrame {
             JSONArray a = (JSONArray) now.get("list");
             JSONObject b = (JSONObject) a.get(0);
             this.jTextField3.setText(weather.getDailyTemp(b) + "\u00b0c");
-            System.out.println(weather.getDailyPressure(b));
-            this.jTextField4.setText(weather.getDailyWeatherMain(b));
+            
+            this.jTextField4.setText(weather.getDailyWeatherDetail(b));
             this.jTextField5.setText(weather.getDailyWindSpeed(b) + " m/s");
             this.jTextField6.setText(weather.getDailyWindDirection(b) + " degree");
         }

@@ -122,14 +122,6 @@ public class Weather {
             System.out.println("Error");
         }
     }
-    
-    public void pushIndex(JSONObject obj) {
-        this.data.add(obj);
-    }
-
-    public JSONObject getData(int idx) {
-        return this.data.get(idx);
-    }
 
     public String getCityName(JSONObject data) {
         JSONObject detail = (JSONObject) data.get("city");
@@ -144,21 +136,6 @@ public class Weather {
     public String getDailyWindDirection(JSONObject data) {
         JSONObject detail = (JSONObject) data.get("wind");
         return detail.get("deg").toString();
-    }
-
-    public String getDailyCloud(JSONObject data) {
-        JSONObject detail = (JSONObject) data.get("clouds");
-        return detail.get("all").toString();
-    }
-
-    public String getDailyHumidity(JSONObject data) {
-        JSONObject detail = (JSONObject) data.get("main");
-        return detail.get("humidity").toString();
-    }
-
-    public String getDailyPressure(JSONObject data) {
-        JSONObject detail = (JSONObject) data.get("main");
-        return detail.get("pressure").toString();
     }
 
     public String getDailyTemp(JSONObject data) {
