@@ -27,5 +27,7 @@ Dependencies : **Netbeans 8.2** <br>
 Clone this repository then open **Weather Forecast** folder as project using **Netbeans**. After that, compile and run the project.
 
 ## How to Use
-1. Enter the city name in the **City field**.
-2. Click **Search** button.
+1. Enter the city name in the **City field**. <br>
+![alt text](https://github.com/yunastrian/WeatherForecast/blob/master/1.jpg)
+2. Click **Search** button. <br>
+![alt text](https://github.com/yunastrian/WeatherForecast/blob/master/2.jpg)
