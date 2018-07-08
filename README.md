@@ -1,4 +1,7 @@
 # Weather Forecast
+
+by : Kurniandha Sukma Yunastrian (13516106) <br>
+
 **Weather Forecast** is an application to predict the conditions of weather for a given location and time. This application is created in Java using Open Weather Map API.
 
 ## Open Weather Map API
@@ -8,9 +11,6 @@
 ## Package Structure 
 ```
 src
-├── Interface
-|   ├── Home.java
-|   └── Result.java
 ├── Process
 |   └── Weather.java
 └── Main
@@ -19,13 +19,13 @@ src
 Packages made based on its function to make it easier for programmers to revise. **Interface Package** is used to display search field and result data. **Process Package** is used to request weather data from [Open Weather Map](https://openweathermap.org/) based on user input.
 
 ## Feature Checklist
-- [ ] Class Home
-- [ ] Class Result
-- [ ] Class Weather
-- [ ] Class Main
+- [X] Class Weather
+- [X] Class Main
 
 ## How to Install
-
-## How to Run
+Dependencies : **Netbeans 8.2** <br>
+Clone this repository then open **Weather Forecast** folder as project using **Netbeans**. After that, compile and run the project.
 
 ## How to Use
+1. Enter the city name in the **City field**.
+2. Click **Search** button.
